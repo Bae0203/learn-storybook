@@ -21,7 +21,7 @@
 
 제가 쓰는 값들 위주로 정리해놨습니다.
 
-```
+```javascript
 const meta = {
   title : "폴더명/컵포넌트이름" //storybook 내에서의 파일 위치
 
@@ -54,7 +54,7 @@ const meta = {
 
 ## StoryBook 컴포넌트 속성 추가하는 방법
 
-```
+```javascript
 export const Normal: Story = {
   args: {
     border: 4,  //당연하겠지만 자신이 props로 지정한 값을 지정
